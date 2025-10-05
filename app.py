@@ -107,14 +107,8 @@ asm_input = st.text_area(
     height=300,
     value="""LDA 13
 LDB 14
-JMP 5
-ORG 5
-ADD
-STA 15
-HLT
-ORG 13
-DEC 51
-DEC 25""",
+
+""",
 )
 
 st.markdown(
