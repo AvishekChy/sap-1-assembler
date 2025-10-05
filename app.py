@@ -107,9 +107,13 @@ asm_input = st.text_area(
     height=300,
     value="""LDA 13
 LDB 14
-
 """,
 )
+# JMP 5
+# ORG 5
+# ADD
+# STA 15
+# HLT
 
 st.markdown(
     "Supported commands: LDA, LDB, ADD, SUB, STA, JMP, HLT. Use ORG [address] to set the origin, DEC [value] for decimal data."
