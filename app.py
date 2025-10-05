@@ -96,7 +96,7 @@ def assemble(asm_code):
     return hex_code
 
 
-st.title("SAP-1 Compiler")
+st.title("Avishek SAP-1 Assembler for Logisim")
 
 st.markdown(
     "Write your SAP-1 assembly code below. The assembler will convert it into a hex string for your Logisim ROM."
